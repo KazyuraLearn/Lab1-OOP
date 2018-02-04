@@ -1,0 +1,6 @@
+Container contains  elements:
+It is Rectangle: x = 6, y = 9
+It is Triangle: r = 17
+It is Triangle: r = 69
+It is Rectangle: x = 3, y = 8
+Container contains  elements:
