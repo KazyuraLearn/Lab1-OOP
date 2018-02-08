@@ -1,6 +1,7 @@
 Container contains  elements:
-It is Rectangle: x = 6, y = 9
-It is Triangle: r = 17
-It is Triangle: r = 69
-It is Rectangle: x = 3, y = 8
+It is Rectangle: x = 6, y = 9 color: RED
+It is Triangle: r = 17 color: ORANGE
+It is Triangle: r = 69 color: YELLOW
+It is Rectangle: x = 3, y = 8 color: GREEN
+It is Triangle: r = 99 color: BLUE
 Container contains  elements:

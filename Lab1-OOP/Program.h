@@ -8,13 +8,14 @@ using namespace std;
 class shape
 {
 	private:
-		enum color { RED, ORANGE, YELLOW, GREEN, BLUE, DARKBLUE, PURPLE };		
+		enum color { RED, ORANGE, YELLOW, GREEN, BLUE, DARKBLUE, PURPLE };			
 	protected:		
 		color c;
-		
+		void getColor(int colorNumber);
+		void outColor(ofstream &ofst);
 	public:
 		shape() {};
-		static shape* in(ifstream &ifst);
+		static shape* in(ifstream &ifst); 
 		virtual void inData(ifstream &ifst) = 0;
 		virtual void outData(ofstream &ofst) = 0;
 };
