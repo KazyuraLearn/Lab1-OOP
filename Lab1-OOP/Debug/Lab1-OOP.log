@@ -1,9 +1,17 @@
-﻿Сборка начата 08.02.2018 23:17:22.
-     1>Проект "C:\Users\NordeN\YandexDisk\4 курс\Прога\Лабы\Lab1-OOP\Lab1-OOP\Lab1-OOP.vcxproj" в узле 2 (целевые объекты Build).
-     1>Link:
-         Lab1-OOP.vcxproj -> C:\Users\NordeN\YandexDisk\4 курс\Прога\Лабы\Lab1-OOP\Debug\Lab1-OOP.exe
-     1>Сборка проекта "C:\Users\NordeN\YandexDisk\4 курс\Прога\Лабы\Lab1-OOP\Lab1-OOP\Lab1-OOP.vcxproj" завершена (целевые объекты Build).
+﻿Сборка начата 15.02.2018 13:50:13.
+     1>Проект "C:\Users\dantt3\Source\Repos\RS\Lab1-OOP\Lab1-OOP.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Program.cpp
+         Program.cpp
+         Создание кода...
+         Пропуск... (изменения не обнаружены)
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dantt3\Source\Repos\RS\Debug\Lab1-OOP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dantt3\Source\Repos\RS\Debug\Lab1-OOP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dantt3\Source\Repos\RS\Debug\Lab1-OOP.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Program.obj
+         Lab1-OOP.vcxproj -> C:\Users\dantt3\Source\Repos\RS\Debug\Lab1-OOP.exe
+     1>Сборка проекта "C:\Users\dantt3\Source\Repos\RS\Lab1-OOP\Lab1-OOP.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:00.05
+Затраченное время: 00:00:01.43

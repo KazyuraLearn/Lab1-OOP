@@ -9,15 +9,10 @@ shape* shape::in(ifstream &ifst)
 	shape* sp = NULL;
 	int k;
 	ifst >> k;
-	switch (k)
-	{
-		case 1:
-			sp = new rectangle; 
-			break;
-		case 2:
-			sp = new circle; 
-			break;
-	}
+	if (k == 1)
+		sp = new rectangle;
+	if (k == 2)
+		sp = new circle;
 	sp->inData(ifst);	
 	return sp;
 }
@@ -85,7 +80,8 @@ void rectangle::inData(ifstream &ifst)
 	int temp;
 	ifst >> x >> y >> temp;
 	getColor(temp);
-}
+}
+
 void rectangle::outData(ofstream &ofst) 
 {
 	ofst << "It is Rectangle: x = " << x << ", y = " << y << " color: ";
@@ -109,30 +105,22 @@ void circle::outData(ofstream &ofst)
 //----------------------------------------------------------------------------------------------
 // Контейнер - односвязный список
 //----------------------------------------------------------------------------------------------
-void container::initContainer()
+node::node(shape* data, node* next)
 {
-	head = NULL;
-	last = NULL;
+	this->data = data;
+	this->next = next;
 }
 
 void container::inContainer(ifstream &ifst)
 {
 	while (!ifst.eof())
 	{
-		node* temp = new node;
-		shape* data = shape::in(ifst);
-		temp->data = data;
-		temp->next = NULL;
+		node* temp = new node(shape::in(ifst), NULL);
 		if (head == NULL)
-		{
 			head = temp;
-			last = temp;
-		}
 		else
-		{
 			last->next = temp;
-			last = temp;
-		}
+		last = temp;
 	}
 }
 
